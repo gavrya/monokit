@@ -1,0 +1,25 @@
+{
+  "name": "@monokit/editorconfig",
+  "version": "1.0.0",
+  "description": "Shareable EditorConfig",
+  "author": "Oleksandr <gavrya@gmail.com>",
+  "homepage": "https://github.com/gavrya/monokit#readme",
+  "license": "MIT",
+  "main": ".editorconfig",
+  "files": [
+    ".editorconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrya/monokit.git"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/gavrya/monokit/issues"
+  }
+}
