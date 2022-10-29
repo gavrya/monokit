@@ -1,8 +1,10 @@
 # `@monokit/editorconfig`
 
+The shareable configuration for EditorConfig.
+
 Contains .editorconfig configuration file.
 
-The .editorconfig file defines basic code style settings for code editors.
+Defines basic code style settings for code editors.
 
 ## Usage
 
@@ -20,15 +22,14 @@ Plugin: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorC
 
 Plugin: https://plugins.jetbrains.com/plugin/7294-editorconfig
 
-## Resources
-
-EditorConfig: https://editorconfig.org
-
-EditorConfig Properties: https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
-
-
 ## Notes
 
 EditorConfig does not currently support the `extends` directive: https://github.com/editorconfig/editorconfig/issues/236
 
 It is not possible to extend basic .editorconfig config and override some properties in subpackages.
+
+## Resources
+
+EditorConfig: https://editorconfig.org
+
+EditorConfig Properties: https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
