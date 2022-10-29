@@ -1,13 +1,13 @@
 {
-  "name": "@monokit/editorconfig",
+  "name": "@monokit/prettier-config",
   "version": "1.0.0",
-  "description": "The shareable configuration for EditorConfig",
+  "description": "The shareable configuration for Prettier",
   "author": "Oleksandr <gavrya@gmail.com>",
   "homepage": "https://github.com/gavrya/monokit#readme",
   "license": "MIT",
-  "main": ".editorconfig",
+  "main": ".prettierrc.js",
   "files": [
-    ".editorconfig"
+    ".prettierrc.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -21,5 +21,8 @@
   },
   "bugs": {
     "url": "https://github.com/gavrya/monokit/issues"
+  },
+  "peerDependencies": {
+    "prettier": "2.7.1"
   }
 }
