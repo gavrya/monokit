@@ -1,0 +1,16 @@
+{
+  "name": "monokit",
+  "private": true,
+  "workspaces": [
+    "packages/apps",
+    "packages/apps/*",
+    "packages/shared/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "engines": {
+    "npm": "^6.14.17",
+    "node": "^14.20.1"
+  }
+}
