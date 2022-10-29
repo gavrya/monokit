@@ -9,6 +9,12 @@ Install node by using nvm tool:
 nvm use
 ```
 
+Install lerna globally:
+
+```console
+yarn global add lerna
+```
+
 Install packages:
 
 ```console
