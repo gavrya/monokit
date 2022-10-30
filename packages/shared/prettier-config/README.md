@@ -6,6 +6,8 @@ Defines code formatting rules for Prettier.
 
 ## Usage
 
+Install Prettier plugin for your favorite code editor.
+
 Install `prettier` as a dev dependency with the version from the peerDependencies section from package.json:
 
 ```console
