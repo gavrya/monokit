@@ -37,6 +37,20 @@ module.exports = {
 
 ```
 
+Create `.prettierignore` configuration file in order to exclude some directories and files from being formatted by Prettier.
+
+```text
+# Ignore artifacts
+dist
+build
+coverage
+
+```
+
+Look at the `.prettierignore.example` file for examples.
+
+By default prettier ignores files in version control systems directories (".git", ".svn" and ".hg") and node_modules
+
 ## VSCode plugin
 
 Plugin: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
@@ -67,3 +81,5 @@ Prettier: https://prettier.io/docs/en/index.html
 Prettier options: https://prettier.io/docs/en/options.html
 
 Sharing configurations: https://prettier.io/docs/en/configuration.html#sharing-configurations
+
+Ignoring files: https://prettier.io/docs/en/ignore.html#ignoring-files-prettierignore

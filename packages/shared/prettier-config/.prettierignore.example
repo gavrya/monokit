@@ -1,0 +1,8 @@
+# If you want to ignore directories
+dist
+build
+coverage
+
+# If you want to ignore files by extensions
+*.md
+*.yml
