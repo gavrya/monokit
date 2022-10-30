@@ -32,6 +32,7 @@ Create `.eslintrc.js` file in the root of your project:
 
 ```javascript
 module.exports = {
+  root: true,
   extends: ['@monokit/eslint-config/node-app'],
   rules: {} // project custom rules
 };
@@ -67,6 +68,7 @@ Create `.eslintrc.js` file in the root of your project:
 
 ```javascript
 module.exports = {
+  root: true,
   extends: ['@monokit/eslint-config/react-app'],
   rules: {} // project custom rules
 };
@@ -103,6 +105,7 @@ Create `.eslintrc.js` file in the root of your project:
 
 ```javascript
 module.exports = {
+  root: true,
   extends: ['@monokit/eslint-config/react-native-app'],
   rules: {} // project custom rules
 };
