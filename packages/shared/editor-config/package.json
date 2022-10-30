@@ -1,5 +1,5 @@
 {
-  "name": "@monokit/editorconfig",
+  "name": "@monokit/editor-config",
   "version": "1.0.0",
   "description": "The shareable configuration for EditorConfig",
   "author": "Oleksandr <gavrya@gmail.com>",
