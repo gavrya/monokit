@@ -45,6 +45,10 @@ dist
 build
 coverage
 
+# Ignore VSCode and WebStorm config directories
+.idea
+.vscode
+
 ```
 
 Look at the `.prettierignore.example` file for examples.

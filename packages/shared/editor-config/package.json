@@ -17,7 +17,8 @@
     "url": "git+https://github.com/gavrya/monokit.git"
   },
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "lint": "exit 0"
   },
   "bugs": {
     "url": "https://github.com/gavrya/monokit/issues"
