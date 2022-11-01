@@ -135,8 +135,11 @@ Plugin: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-esli
 
 Plugin: https://plugins.jetbrains.com/plugin/7494-eslint
 
-## Notes
+## Config file resolving process
 
+ESLint will automatically look for .eslintrc.js config files in the directory of the file to be linted, and in successive parent directories all the way up to the root directory of the filesystem (/), the home directory of the current user (~/), or when root: true is specified.
+
+## Notes
 
 Debug which rules and plugins will be applied to the specific file:
 

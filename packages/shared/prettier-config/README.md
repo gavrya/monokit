@@ -63,6 +63,10 @@ Plugin: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vsco
 
 Plugin: https://plugins.jetbrains.com/plugin/10456-prettier
 
+## Config file resolving process
+
+The configuration file will be resolved starting from the location of the file being formatted, and searching up the file tree until a config file is (or isn’t) found.
+
 ## Notes
 
 If the `.editorconfig` file exists is in your project, Prettier will parse it and convert its properties to the corresponding Prettier configuration.
