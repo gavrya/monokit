@@ -9,7 +9,7 @@ Contains different types of base tsconfig.json configs.
 Install typescript package to the projects root (optional):
 
 ```console
-lerna add --dev typescript --scope={target_package_name}
+lerna add --dev typescript@{peer_version} --scope={target_package_name}
 ```
 
 Install `@monokit/typescript-config` package (to the target projects, not root):
