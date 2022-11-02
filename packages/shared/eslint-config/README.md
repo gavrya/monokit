@@ -124,7 +124,6 @@ coverage
 # Ignore VSCode and WebStorm config directories
 .idea
 .vscode
-
 ```
 
 ## VSCode plugin

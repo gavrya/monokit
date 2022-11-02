@@ -24,7 +24,6 @@ Create `.prettierrc.js` configuration file with the next content in the root dir
 
 ```javascript
 module.exports = require('@monokit/prettier-config');
-
 ```
 
 or with the next content if you want to override some properties:
@@ -34,7 +33,6 @@ module.exports = {
   ...require('@monokit/prettier-config'),
   semi: true, // override
 };
-
 ```
 
 Create `.prettierignore` configuration file in order to exclude some directories and files from being formatted by Prettier.
@@ -48,7 +46,6 @@ coverage
 # Ignore VSCode and WebStorm config directories
 .idea
 .vscode
-
 ```
 
 Look at the `.prettierignore.example` file for examples.

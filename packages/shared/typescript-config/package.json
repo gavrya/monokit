@@ -1,0 +1,34 @@
+{
+  "name": "@monokit/typescript-config",
+  "version": "1.0.0",
+  "description": "The shareable configuration for Typescript",
+  "author": "Oleksandr <gavrya@gmail.com>",
+  "homepage": "https://github.com/gavrya/monokit#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    "./*": "./src/*.json"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrya/monokit.git"
+  },
+  "scripts": {
+    "test": "exit 0",
+    "lint": "exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/gavrya/monokit/issues"
+  },
+  "dependencies": {
+    "@tsconfig/create-react-app": "^1.0.2",
+    "@tsconfig/node14": "^1.0.3",
+    "@tsconfig/react-native": "^2.0.2"
+  }
+}
