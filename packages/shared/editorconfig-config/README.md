@@ -1,4 +1,4 @@
-# `@monokit/editorconfig`
+# `@monokit/editorconfig-config`
 
 The shareable configuration for EditorConfig.
 
