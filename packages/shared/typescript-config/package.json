@@ -5,7 +5,7 @@
   "author": "Oleksandr <gavrya@gmail.com>",
   "homepage": "https://github.com/gavrya/monokit#readme",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./src/node-app.tsconfig.json",
   "exports": {
     "./*": "./src/*.json"
   },
