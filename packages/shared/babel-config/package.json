@@ -1,0 +1,43 @@
+{
+  "name": "@monokit/babel-config",
+  "version": "1.0.0",
+  "description": "The shareable configuration for Babel",
+  "author": "Oleksandr <gavrya@gmail.com>",
+  "homepage": "https://github.com/gavrya/monokit#readme",
+  "license": "MIT",
+  "main": "src/node-app/babel.config.js",
+  "exports": {
+    "./*": "./src/*/babel.config.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrya/monokit.git"
+  },
+  "scripts": {
+    "test": "exit 0",
+    "babel-node-app": "NODE_ENV=production babel --config-file ./src/node-app/babel.config.js --out-dir build/out ./build/in --extensions '.js,.jsx,.ts,.tsx'",
+    "babel-react-app": "NODE_ENV=production babel --config-file ./src/react-app/babel.config.js --out-dir build/out ./build/in --extensions '.js,.jsx,.ts,.tsx'"
+  },
+  "bugs": {
+    "url": "https://github.com/gavrya/monokit/issues"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "babel-plugin-styled-components": "^2.0.7",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "^7.20.1"
+  }
+}
