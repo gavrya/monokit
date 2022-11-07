@@ -5,10 +5,7 @@
   "author": "Oleksandr <gavrya@gmail.com>",
   "homepage": "https://github.com/gavrya/monokit#readme",
   "license": "MIT",
-  "main": ".eslintrc.js",
-  "files": [
-    ".eslintrc.js"
-  ],
+  "main": "./src/presets/node-app.js",
   "exports": {
     "./*": "./src/presets/*.js"
   },

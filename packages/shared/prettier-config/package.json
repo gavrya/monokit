@@ -5,10 +5,7 @@
   "author": "Oleksandr <gavrya@gmail.com>",
   "homepage": "https://github.com/gavrya/monokit#readme",
   "license": "MIT",
-  "main": ".prettierrc.js",
-  "files": [
-    ".prettierrc.js"
-  ],
+  "main": "./src/.prettierrc.js",
   "publishConfig": {
     "access": "public"
   },
