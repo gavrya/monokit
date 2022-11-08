@@ -1,0 +1,22 @@
+{
+  "name": "@monokit/browserslist-config",
+  "version": "1.0.0",
+  "description": "The shareable configuration for Browserslist",
+  "author": "Oleksandr <gavrya@gmail.com>",
+  "homepage": "https://github.com/gavrya/monokit#readme",
+  "license": "MIT",
+  "main": "src/.browserslistrc.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrya/monokit.git"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/gavrya/monokit/issues"
+  }
+}
