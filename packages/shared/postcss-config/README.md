@@ -6,7 +6,7 @@ PostCSS is a tool for transforming styles, and it works similar to Babel.
 
 ## Usage
 
-Install package:
+Install `@monokit/postcss-config` package as a dev dependency:
 
 ```console
 lerna add --dev @monokit/postcss-config --scope={target_monorepo_package}

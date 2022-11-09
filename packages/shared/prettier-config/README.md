@@ -14,7 +14,7 @@ Install `prettier` as a dev dependency with the version from the peerDependencie
 lerna add --dev prettier@{peer_version} --scope={target_monorepo_package}
 ```
 
-Install the package as a dev dependency:
+Install `@monokit/prettier-config` package as a dev dependency:
 
 ```console
 lerna add --dev @monokit/prettier-config --scope={target_monorepo_package}

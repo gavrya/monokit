@@ -8,6 +8,12 @@ Defines target browsers that project supports.
 
 Install Browserslist plugin for your favorite code editor.
 
+Install `@monokit/browserslist-config` package as a dev dependency:
+
+```console
+lerna add --dev @monokit/browserslist-config --scope={target_package_name}
+```
+
 Use Browserslist configuration.
 
 ### Usage option #1
