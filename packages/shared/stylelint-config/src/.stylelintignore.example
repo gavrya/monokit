@@ -1,0 +1,11 @@
+# If you want to ignore artifact directories
+dist
+build
+coverage
+
+# If you want to ignore VSCode and WebStorm config directories
+.idea
+.vscode
+
+# If you want to ignore files by extensions
+vendor/**/*.css

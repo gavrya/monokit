@@ -1,0 +1,47 @@
+{
+  "name": "@monokit/stylelint-config",
+  "version": "1.0.0",
+  "description": "The shareable configuration for Stylelint",
+  "author": "Oleksandr <gavrya@gmail.com>",
+  "homepage": "https://github.com/gavrya/monokit#readme",
+  "license": "MIT",
+  "main": "src/stylelint.config.js",
+  "exports": {
+    "./*": "./src/*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrya/monokit.git"
+  },
+  "scripts": {
+    "test": "exit 0",
+    "lint:styled": "stylelint --config ./src/styled.stylelint.config.js './build/**/*.(jsx|tsx)'",
+    "lint:css": "stylelint --fix --config ./src/stylelint.config.js './build/**/*.(css|scss)'",
+    "format": "prettier --write ./build"
+  },
+  "bugs": {
+    "url": "https://github.com/gavrya/monokit/issues"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.1"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.18",
+    "stylelint": "^14.14.1"
+  },
+  "dependencies": {
+    "postcss-scss": "^4.0.5",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  }
+}
