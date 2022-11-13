@@ -79,6 +79,10 @@ indent_size/tab_width
 max_line_length
 ```
 
+## Dependencies
+
+Depends on editorconfig config (`@monokit/editorconfig-config` package)
+
 ## Resources
 
 Prettier: https://prettier.io/docs/en/index.html

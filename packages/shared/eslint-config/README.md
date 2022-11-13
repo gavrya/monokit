@@ -152,6 +152,10 @@ Debug ESLint execution:
 {path_to_eslint}/eslint --debug {path-to-some-file.ts}
 ```
 
+## Dependencies
+
+Depends on prettier config (`@monokit/prettier-config` package)
+
 ## Resources
 
 ESLint: https://eslint.org/docs/latest

@@ -52,7 +52,13 @@ Create npm scripts optionally (in the target projects, not root):
 }
 ```
 
-## Resources:
+## Dependencies
+
+Depends on browserslist config (`@monokit/browserslist-config` package)
+
+Depends on typescript config (`@monokit/typescript-config` package)
+
+## Resources
 
 Babel transpiler: https://babeljs.io/docs/en/
 

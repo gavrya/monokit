@@ -51,6 +51,10 @@ Plugin: https://plugins.jetbrains.com/plugin/9276-intellij-stylelint-plugin
 
 It is not possible to reformat css inside of Styled Components, `--fix` option is ignored when a custom Stylelint parser is used.
 
+## Dependencies
+
+Depends on prettier config (`@monokit/prettier-config` package)
+
 ## Resources
 
 Stylelint: https://stylelint.io/
