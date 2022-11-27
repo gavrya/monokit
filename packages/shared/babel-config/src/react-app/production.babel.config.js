@@ -40,6 +40,14 @@ const plugins = [
     require('@babel/plugin-proposal-nullish-coalescing-operator'),
     {},
   ],
+  [
+    require('babel-plugin-module-resolver'),
+    {
+      alias: {
+        '@src': './src',
+      },
+    }
+  ]
 ];
 
 module.exports = {

@@ -67,3 +67,19 @@ Babel transpile online: https://babeljs.io/repl
 CRA Babel config example: https://github.com/facebook/create-react-app/blob/main/packages/babel-preset-react-app/create.js
 
 Babel and Styled Components: https://styled-components.com/docs/tooling#usage
+
+Using Babel presets: https://babeljs.io/docs/en/presets/#using-a-preset
+
+## TODO
+- use presets instead of `module.exports = require('@monokit/babel-config/react-app');`
+
+```javascript
+module.exports = {
+  presets: [
+    ['@monokit/babel-config', {
+        styledComponents: true,
+        someOption: 'value'
+    }]
+  ],
+};
+```

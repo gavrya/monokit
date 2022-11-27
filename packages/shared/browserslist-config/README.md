@@ -49,6 +49,14 @@ last 1 firefox version
 last 1 safari version
 ```
 
+### Usage option #3
+
+Create `.browserslistrc` config in your project root:
+
+```ini
+extends @monokit/browserslist-config
+```
+
 ## VSCode plugin
 
 Plugin: https://marketplace.visualstudio.com/items?itemName=webben.browserslist
