@@ -11,6 +11,8 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'no-restricted-exports': 'off',
     'class-methods-use-this': 'off',
+    'max-depth': ['error', 2],
+    'max-nested-callbacks': ['error', 1],
 
     // plugin: import
     'import/prefer-default-export': 'off',
@@ -64,6 +66,12 @@ module.exports = {
     ],
   },
   overrides: [
+    {
+      files: ['*.{spec,test}.*'],
+      rules: {
+        'max-nested-callbacks': ['error', 10],
+      },
+    },
     {
       files: ['*.ts', '*.tsx'],
       rules: {

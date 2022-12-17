@@ -21,6 +21,7 @@ Install peer dependencies from the `@monokit/eslint-config` package:
 ```sh
 yarn add -D eslint@{version}\
 prettier@{version}\
+@typescript-eslint/parser@{version}\
 @typescript-eslint/eslint-plugin@{version}\
 eslint-plugin-import@{version}\
 eslint-plugin-jest@{version}\
@@ -53,6 +54,7 @@ Install peer dependencies from the `@monokit/eslint-config` package:
 ```sh
 yarn add -D eslint@{version}\
 prettier@{version}\
+@typescript-eslint/parser@{version}\
 @typescript-eslint/eslint-plugin@{version}\
 eslint-plugin-import@{version}\
 eslint-plugin-jest@{version}\
@@ -89,6 +91,7 @@ Install peer dependencies from the `@monokit/eslint-config` package:
 ```sh
 yarn add -D eslint@{version}\
 prettier@{version}\
+@typescript-eslint/parser@{version}\
 @typescript-eslint/eslint-plugin@{version}\
 eslint-plugin-import@{version}\
 eslint-plugin-jest@{version}\
